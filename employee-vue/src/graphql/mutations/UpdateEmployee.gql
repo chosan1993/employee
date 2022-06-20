@@ -1,0 +1,6 @@
+mutation ($id: ID!, $name: String!, $email: String!, $position: String!) {
+  updateEmployee(id: $id, name: $name, email: $email, position: $position) {
+    id
+    name
+  }
+}
